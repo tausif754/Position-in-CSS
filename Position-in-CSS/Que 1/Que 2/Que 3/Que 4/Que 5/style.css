@@ -1,0 +1,12 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}

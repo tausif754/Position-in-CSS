@@ -1,0 +1,30 @@
+
+Absolute Positioning:
+Absolute positioning involves specifying the exact position of an element relative to a parent or containing element that has a defined position
+(usually non-static, like relative, absolute, or fixed). 
+Absolute positioning removes the element from the normal flow of content, and 
+it is often used to overlay elements or create fixed-position elements on a webpage.
+-Common CSS properties for absolute positioning include position:
+- absolute; and the top, bottom, left, and right properties are used to specify the exact position relative to the nearest positioned ancestor.
+-EXAMPLE:-
+div {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Relative Positioning:
+-Relative positioning involves specifying the position of an element relative to its default or
+ natural position within its containing element. 
+-It is often used in the context of web design and CSS (Cascading Style Sheets) for HTML elements.
+Common CSS properties for relative positioning include position: relative; and using properties like top, bottom, left, and right 
+to adjust the position relative to the default position.
+EXAMPLE:-
+div {
+  position: relative;
+  top: 20px;
+  left: 30px;
+}
+
